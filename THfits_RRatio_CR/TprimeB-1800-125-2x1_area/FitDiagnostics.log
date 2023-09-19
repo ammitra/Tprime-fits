@@ -9,12 +9,12 @@ Set Default Value of Parameter r To : 1
 >>> 0 out of 6 channels masked
 
 >>> Channel masks:
-  1) 0x65a4870 RooRealVar::  mask_CR_loose_LOW = 0 C  L(-INF - +INF)  "mask_CR_loose_LOW"
-  2) 0x65a5350 RooRealVar::  mask_CR_loose_SIG = 0 C  L(-INF - +INF)  "mask_CR_loose_SIG"
-  3) 0x65a5f60 RooRealVar:: mask_CR_loose_HIGH = 0 C  L(-INF - +INF)  "mask_CR_loose_HIGH"
-  4) 0x65a6b70 RooRealVar::   mask_CR_pass_LOW = 0 C  L(-INF - +INF)  "mask_CR_pass_LOW"
-  5) 0x65a7780 RooRealVar::   mask_CR_pass_SIG = 0 C  L(-INF - +INF)  "mask_CR_pass_SIG"
-  6) 0x65a8390 RooRealVar::  mask_CR_pass_HIGH = 0 C  L(-INF - +INF)  "mask_CR_pass_HIGH"
+  1) 0x64ec8b0 RooRealVar::  mask_CR_loose_LOW = 0 C  L(-INF - +INF)  "mask_CR_loose_LOW"
+  2) 0x64ed390 RooRealVar::  mask_CR_loose_SIG = 0 C  L(-INF - +INF)  "mask_CR_loose_SIG"
+  3) 0x64edfa0 RooRealVar:: mask_CR_loose_HIGH = 0 C  L(-INF - +INF)  "mask_CR_loose_HIGH"
+  4) 0x64eebb0 RooRealVar::   mask_CR_pass_LOW = 0 C  L(-INF - +INF)  "mask_CR_pass_LOW"
+  5) 0x64ef7c0 RooRealVar::   mask_CR_pass_SIG = 0 C  L(-INF - +INF)  "mask_CR_pass_SIG"
+  6) 0x64f03d0 RooRealVar::  mask_CR_pass_HIGH = 0 C  L(-INF - +INF)  "mask_CR_pass_HIGH"
 SimNLL created with 0 channels, 0 generic constraints, 14 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
 Minuit2Minimizer: Minimize with max-calls 7000 convergence for edm < 0.1 strategy 1
 Minuit2Minimizer::Minuit  - Changing default options

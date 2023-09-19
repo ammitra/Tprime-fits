@@ -9,12 +9,12 @@ Set Default Value of Parameter r To : 1
 >>> 0 out of 6 channels masked
 
 >>> Channel masks:
-  1) 0x6bf18a0 RooRealVar::  mask_CR_loose_LOW = 0 C  L(-INF - +INF)  "mask_CR_loose_LOW"
-  2) 0x6bf2380 RooRealVar::  mask_CR_loose_SIG = 0 C  L(-INF - +INF)  "mask_CR_loose_SIG"
-  3) 0x6bf2f90 RooRealVar:: mask_CR_loose_HIGH = 0 C  L(-INF - +INF)  "mask_CR_loose_HIGH"
-  4) 0x6bf3ba0 RooRealVar::   mask_CR_pass_LOW = 0 C  L(-INF - +INF)  "mask_CR_pass_LOW"
-  5) 0x6bf47b0 RooRealVar::   mask_CR_pass_SIG = 0 C  L(-INF - +INF)  "mask_CR_pass_SIG"
-  6) 0x6bf53c0 RooRealVar::  mask_CR_pass_HIGH = 0 C  L(-INF - +INF)  "mask_CR_pass_HIGH"
+  1) 0x5480780 RooRealVar::  mask_CR_loose_LOW = 0 C  L(-INF - +INF)  "mask_CR_loose_LOW"
+  2) 0x5481260 RooRealVar::  mask_CR_loose_SIG = 0 C  L(-INF - +INF)  "mask_CR_loose_SIG"
+  3) 0x5481e70 RooRealVar:: mask_CR_loose_HIGH = 0 C  L(-INF - +INF)  "mask_CR_loose_HIGH"
+  4) 0x5482a80 RooRealVar::   mask_CR_pass_LOW = 0 C  L(-INF - +INF)  "mask_CR_pass_LOW"
+  5) 0x5483690 RooRealVar::   mask_CR_pass_SIG = 0 C  L(-INF - +INF)  "mask_CR_pass_SIG"
+  6) 0x54842a0 RooRealVar::  mask_CR_pass_HIGH = 0 C  L(-INF - +INF)  "mask_CR_pass_HIGH"
 SimNLL created with 0 channels, 0 generic constraints, 14 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
 Minuit2Minimizer: Minimize with max-calls 7000 convergence for edm < 0.1 strategy 1
 Minuit2Minimizer::Minuit  - Changing default options
@@ -273,7 +273,7 @@ Searching for crossing at nll = -3488.03 in the interval -0.0103597, -1
 
  --- FitDiagnostics ---
 Best fit r: -0.0103597  -0.571011/+0.692784  (68% CL)
-Done in 0.02 min (cpu), 0.02 min (real)
+Done in 0.03 min (cpu), 0.03 min (real)
 Printing Message Summary From ... combine_logger.out
 ----------------------------------------------
 Messages of type INFO : 150

@@ -50,7 +50,10 @@ CR_p = qcd_hists['CR_pass']
 
 # Now, re-bin them with the binning used in the fits
 binning, _ = twoD.GetBinningFor('CR_loose')
+# need constant bins to make the RPL
 qcd_l = BinnedDistribution('Multijet_CR_loose', CR_l, binning, constant=True)
+# This is the one used in the fit, though. its bins can float or not
+qcd_l2 = BinnedDistribution('Multijet_CR_loose', CR_l, binning, constant=False)
 qcd_p = BinnedDistribution('Multijet_CR_pass', CR_p, binning, constant=True)
 
 # Make a new BinnedDistribution object of their quotient - this is the pass-to-loose ratio
@@ -69,7 +72,8 @@ h_qcdp.Write()
 debug.Close()
 
 twoD.AddAlphaObj('Multijet','CR_loose',qcd_l,title='Multijet')
-qcd_intermediate = qcd_l.Multiply('Multijet_LooseTimesRPL',mc_rpl)
+# make sure we are multiplying the second CR_loose binned distribution
+qcd_intermediate = qcd_l2.Multiply('Multijet_LooseTimesRPL',mc_rpl)
 for rratio, options in _rratio_options.items():
     qcd_rratio = ParametricFunction('CR_RRatio'+'_'+rratio, binning, options['form'], constraints=options['constraints'])
     qcd_pass = qcd_intermediate.Multiply('Multijet_CR_pass_'+rratio, qcd_rratio)
