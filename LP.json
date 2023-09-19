@@ -1,0 +1,195 @@
+{
+    "NAME": "TPrimeToTH_TPhi",
+    "GLOBAL": {
+        "FILE": "THselection_HT750_$process_Run2.root",
+        "FILE_UP": "THselection_HT750_$process_Run2_$syst_up.root",
+        "FILE_DOWN": "THselection_HT750_$process_Run2_$syst_down.root",
+        "HIST": "MthvMh_particleNet_$region__nominal",
+        "HIST_UP": "MthvMh_particleNet_$region__$syst_up",
+        "HIST_DOWN": "MthvMh_particleNet_$region__$syst_down",
+        "path": "rootfiles",
+	"SIGNAME": ["TprimeB-1800-125"]	
+    },
+    "REGIONS": {
+        "CR_loose": {
+	    "PROCESSES": ["ttbar","WJets","ZJets","SIGNAME"],
+            "BINNING": "default"
+        },
+	"CR_pass": {
+            "PROCESSES": ["ttbar","WJets","ZJets","SIGNAME"],
+            "BINNING": "default"
+	}
+    },
+    "PROCESSES": {
+	"data_obs": {
+            "SYSTEMATICS":[],
+            "SCALE": 1.0,
+            "COLOR": 1,
+            "TYPE": "DATA",
+            "ALIAS": "Data",
+            "TITLE": "Data",
+            "LOC": "path/FILE:HIST"
+	},
+	"SIGNAME": {
+	    "SYSTEMATICS":["lumi","pdf","jer","jes","jmr","jms","Pileup","PNetTop","PNetXbb"],
+            "SCALE": 1.0,
+            "COLOR": 1,
+            "TYPE": "SIGNAL",
+            "TITLE": "b+T 1800 GeV",
+            "LOC": "path/FILE:HIST"
+	},
+        "ttbar": {
+            "SYSTEMATICS":["lumi","ttbar_xsec","TptReweight","Pileup","pdf","Prefire","jer","jes","jmr","jms"],
+            "SCALE": 1.0,
+            "COLOR": 2,
+            "TYPE": "BKG",
+            "TITLE": "t#bar{t}",
+            "LOC": "path/FILE:HIST"
+        },
+        "ZJets": {
+            "SYSTEMATICS":["lumi","z_xsec","Pileup","pdf","jer","jes","jmr","jms"],
+            "SCALE": 1.0,
+            "COLOR": 3,
+            "TYPE": "BKG",
+            "TITLE": "Z+ Jets",
+            "LOC": "path/FILE:HIST"
+        },
+        "WJets": {
+            "SYSTEMATICS":["lumi","w_xsec","Pileup","pdf","jer","jes","jmr","jms"],
+            "SCALE": 1.0,
+            "COLOR": 4,
+            "TYPE": "BKG",
+            "TITLE": "W+ Jets",
+            "LOC": "path/FILE:HIST"
+        }
+    },
+    "SYSTEMATICS": {
+        "lumi": {
+            "CODE": 0,
+            "VAL": 1.016
+        },
+        "ttbar_xsec": {
+            "VAL": 1.2
+        },
+	"w_xsec": {
+	    "VAL": 1.2
+	},
+	"z_xsec": {
+	    "VAL": 1.2
+	},
+	"PNetTop": {
+	    "UP": "path/FILE_UP:HIST",
+	    "DOWN": "path/FILE_DOWN:HIST",
+	    "SIGMA": 1.0
+	},
+        "PNetXbb": {
+            "UP": "path/FILE_UP:HIST",
+            "DOWN": "path/FILE_DOWN:HIST",
+            "SIGMA": 1.0
+        },
+        "TptReweight": {
+            "UP": "path/FILE:HIST_UP",
+            "DOWN": "path/FILE:HIST_DOWN",
+            "SIGMA": 1.0
+        },
+        "Prefire": {
+	    "ALIAS1": "Prefire",
+            "ALIAS": "L1PreFiringWeight",
+            "UP": "path/FILE:HIST_UP",
+            "DOWN": "path/FILE:HIST_DOWN",
+            "SIGMA": 1.0
+        },
+        "Pileup": {
+            "ALIAS": "Pileup",
+            "UP": "path/FILE:HIST_UP",
+            "DOWN": "path/FILE:HIST_DOWN",
+            "SIGMA": 1.0
+        },
+        "Pileup": {
+            "ALIAS": "Pileup",
+            "UP": "path/FILE:HIST_UP",
+            "DOWN": "path/FILE:HIST_DOWN",
+            "SIGMA": 1.0
+        },
+        "TriggerEff16": {
+	    "CODE": 0,
+	    "VAL": 1.1,
+            "COMMENT_UP": "path/FILE:HIST_UP",
+            "COMMENT_DOWN": "path/FILE:HIST_DOWN",
+            "COMMENT_SIGMA": 1.0
+        },
+        "TriggerEff17": {
+            "UP": "path/FILE:HIST_UP",
+            "DOWN": "path/FILE:HIST_DOWN",
+            "SIGMA": 1.0
+        },
+        "TriggerEff18": {
+            "UP": "path/FILE:HIST_UP",
+            "DOWN": "path/FILE:HIST_DOWN",
+            "SIGMA": 1.0
+        },
+        "pdf": {
+            "ALIAS": "Pdfweight",
+            "UP": "path/FILE:HIST_UP",
+            "DOWN": "path/FILE:HIST_DOWN",
+            "SIGMA": 1.0
+        },
+        "jmr": {
+            "ALIAS": "JMR",
+            "UP": "path/FILE_UP:HIST",
+            "DOWN": "path/FILE_DOWN:HIST",
+            "SIGMA": 1.0
+        },
+        "jms": {
+            "ALIAS": "JMS",
+            "UP": "path/FILE_UP:HIST",
+            "DOWN": "path/FILE_DOWN:HIST",
+            "SIGMA": 1.0
+        },
+        "jes": {
+            "ALIAS": "JES",
+            "UP": "path/FILE_UP:HIST",
+            "DOWN": "path/FILE_DOWN:HIST",
+            "SIGMA": 1.0
+        },
+        "jer": {
+            "ALIAS": "JER",
+            "UP": "path/FILE_UP:HIST",
+            "DOWN": "path/FILE_DOWN:HIST",
+            "SIGMA": 1.0
+        }
+    },
+    "BINNING": {
+        "default": {
+            "X": {
+                "NAME": "jetmass",
+                "TITLE": "m_{#phi} (GeV)",
+                "MIN": 60,
+                "MAX": 240,
+                "NBINS": 12,
+                "SIGSTART": 105,
+                "SIGEND": 150
+            },
+            "Y": {
+                "NAME": "resmass",
+                "TITLE": "m_{t#phi} (GeV)",
+                "MIN": 900,
+                "MAX": 2200,
+                "NBINS": 13
+            }
+        }
+    },
+    "OPTIONS": {
+	"comment": "removed 'SR_pass' and 'SR_loose' from the blindedPlots and blindedFit options. Especially with the move to T'->tphi, we are just looking at the CR at first, so unblinding there might slightly aid the fit. ALSO: TURN OFF plotTemplateComparisons",
+        "blindedPlots": [],
+        "blindedFit": [],
+        "plotPrefitSigInFitB": true,
+        "plotUncerts": false,
+        "plotTitles":false,
+	"plotTemplateComparisons": true,
+        "year": 2
+    }
+
+}
+
+

@@ -1,0 +1,10 @@
+,process,region,obj,norm,process_type,color,combine_idx,title
+0,Background,SR_loose,,,BKG,400,,Multijet
+1,Background_1x0,SR_pass,,,BKG,400,,Multijet
+2,Background_1x1,SR_pass,,,BKG,400,,Multijet
+3,Background_2x2,SR_pass,,,BKG,400,,Multijet
+4,Background_2x1,SR_pass,,,BKG,400,,Multijet
+5,Background_0x1,SR_pass,,,BKG,400,,Multijet
+6,Background_0x0,SR_pass,,,BKG,400,,Multijet
+7,Background_3x2,SR_pass,,,BKG,400,,Multijet
+8,Background_1x2_test,SR_pass,,,BKG,400,,Multijet

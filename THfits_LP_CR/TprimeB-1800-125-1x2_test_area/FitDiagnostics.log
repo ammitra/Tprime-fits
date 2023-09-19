@@ -1,0 +1,70 @@
+
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is FitDiagnostics
+Set Default Value of Parameter r To : 1
+>>> 0 out of 6 channels masked
+
+>>> Channel masks:
+  1) 0x4f79ab0 RooRealVar::  mask_CR_loose_LOW = 0 C  L(-INF - +INF)  "mask_CR_loose_LOW"
+  2) 0x4f7a590 RooRealVar::  mask_CR_loose_SIG = 0 C  L(-INF - +INF)  "mask_CR_loose_SIG"
+  3) 0x4f7b1a0 RooRealVar:: mask_CR_loose_HIGH = 0 C  L(-INF - +INF)  "mask_CR_loose_HIGH"
+  4) 0x4f7bdb0 RooRealVar::   mask_CR_pass_LOW = 0 C  L(-INF - +INF)  "mask_CR_pass_LOW"
+  5) 0x4f7c9c0 RooRealVar::   mask_CR_pass_SIG = 0 C  L(-INF - +INF)  "mask_CR_pass_SIG"
+  6) 0x4f7d5d0 RooRealVar::  mask_CR_pass_HIGH = 0 C  L(-INF - +INF)  "mask_CR_pass_HIGH"
+SimNLL created with 0 channels, 0 generic constraints, 14 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+Minuit2Minimizer: Minimize with max-calls 7000 convergence for edm < 0.1 strategy 1
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+MnSeedGenerator: for initial parameters FCN = 0
+MnSeedGenerator: Initial state:   - FCN =                0 Edm =            0 NCalls =     57
+VariableMetric: start iterating until Edm is < 0.0001
+VariableMetric: Initial state   - FCN =                0 Edm =            0 NCalls =     57
+VariableMetric: Iteration #   0 - FCN =                0 Edm =            0 NCalls =     57
+VariableMetric: After Hessian   - FCN =                0 Edm =            0 NCalls =    205
+VariableMetric: Iteration #   1 - FCN =                0 Edm =            0 NCalls =    205
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 0
+Nfcn  = 205
+PNetTop	  = 0	 +/-  1
+PNetXbb	  = 0	 +/-  1
+Pileup	  = 0	 +/-  1
+Prefire	  = 0	 +/-  1
+TptReweight	  = 0	 +/-  1
+jer	  = 0	 +/-  1
+jes	  = 0	 +/-  1
+jmr	  = 0	 +/-  1
+jms	  = 0	 +/-  1
+lumi	  = 0	 +/-  1
+pdf	  = 0	 +/-  1
+ttbar_xsec	  = 0	 +/-  1
+w_xsec	  = 0	 +/-  1
+z_xsec	  = 0	 +/-  1
+SimNLL created with 6 channels, 0 generic constraints, 14 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ --- FitDiagnostics ---
+Fit failed.
+Done in 0.21 min (cpu), 0.21 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 11
+Messages of type DEBUG : 2
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: applyOptionsBase) FitterAlgoBase.cc: 113 -- Setting robust fit options to Tolerance=0.1 / Strategy=0 / Type,Algo=Minuit2,Migrad (note that defaults of CascadeMinimizer were taken where option not specified)
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=-1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 217 -- Minimization ended with latest status != 0 or 1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=-1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 217 -- Minimization ended with latest status != 0 or 1

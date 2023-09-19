@@ -1,0 +1,247 @@
+{
+  "BINNING": {
+    "default": {
+      "X": {
+        "MAX": 240, 
+        "MIN": 60, 
+        "NAME": "jetmass", 
+        "NBINS": 12, 
+        "SIGEND": 150, 
+        "SIGSTART": 105, 
+        "TITLE": "m_{#phi} (GeV)"
+      }, 
+      "Y": {
+        "MAX": 2200, 
+        "MIN": 900, 
+        "NAME": "resmass", 
+        "NBINS": 13, 
+        "TITLE": "m_{t#phi} (GeV)"
+      }
+    }
+  }, 
+  "GLOBAL": {
+    "FILE": "THselection_HT750_$process_Run2.root", 
+    "FILE_DOWN": "THselection_HT750_$process_Run2_$syst_down.root", 
+    "FILE_UP": "THselection_HT750_$process_Run2_$syst_up.root", 
+    "HIST": "MthvMh_particleNet_$region__nominal", 
+    "HIST_DOWN": "MthvMh_particleNet_$region__$syst_down", 
+    "HIST_UP": "MthvMh_particleNet_$region__$syst_up", 
+    "SIGNAME": [
+      "TprimeB-1800-125"
+    ], 
+    "path": "rootfiles"
+  }, 
+  "NAME": "TPrimeToTH_TPhi", 
+  "OPTIONS": {
+    "blindedFit": [], 
+    "blindedPlots": [], 
+    "comment": "removed 'SR_pass' and 'SR_loose' from the blindedPlots and blindedFit options. Especially with the move to T'->tphi, we are just looking at the CR at first, so unblinding there might slightly aid the fit. ALSO: TURN OFF plotTemplateComparisons", 
+    "plotPrefitSigInFitB": true, 
+    "plotTemplateComparisons": true, 
+    "plotTitles": false, 
+    "plotUncerts": false, 
+    "year": 2
+  }, 
+  "PROCESSES": {
+    "SIGNAME": {
+      "COLOR": 1, 
+      "LOC": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__nominal", 
+      "NAME": "SIGNAME", 
+      "SCALE": 1.0, 
+      "SYSTEMATICS": [
+        "lumi", 
+        "pdf", 
+        "jer", 
+        "jes", 
+        "jmr", 
+        "jms", 
+        "Pileup", 
+        "PNetTop", 
+        "PNetXbb"
+      ], 
+      "TITLE": "b+T 1800 GeV", 
+      "TYPE": "SIGNAL", 
+      "VARIATION": "nominal"
+    }, 
+    "WJets": {
+      "COLOR": 4, 
+      "LOC": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__nominal", 
+      "NAME": "WJets", 
+      "SCALE": 1.0, 
+      "SYSTEMATICS": [
+        "lumi", 
+        "w_xsec", 
+        "Pileup", 
+        "pdf", 
+        "jer", 
+        "jes", 
+        "jmr", 
+        "jms"
+      ], 
+      "TITLE": "W+ Jets", 
+      "TYPE": "BKG", 
+      "VARIATION": "nominal"
+    }, 
+    "ZJets": {
+      "COLOR": 3, 
+      "LOC": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__nominal", 
+      "NAME": "ZJets", 
+      "SCALE": 1.0, 
+      "SYSTEMATICS": [
+        "lumi", 
+        "z_xsec", 
+        "Pileup", 
+        "pdf", 
+        "jer", 
+        "jes", 
+        "jmr", 
+        "jms"
+      ], 
+      "TITLE": "Z+ Jets", 
+      "TYPE": "BKG", 
+      "VARIATION": "nominal"
+    }, 
+    "data_obs": {
+      "ALIAS": "Data", 
+      "COLOR": 1, 
+      "LOC": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__nominal", 
+      "NAME": "data_obs", 
+      "SCALE": 1.0, 
+      "SYSTEMATICS": [], 
+      "TITLE": "Data", 
+      "TYPE": "DATA", 
+      "VARIATION": "nominal"
+    }, 
+    "ttbar": {
+      "COLOR": 2, 
+      "LOC": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__nominal", 
+      "NAME": "ttbar", 
+      "SCALE": 1.0, 
+      "SYSTEMATICS": [
+        "lumi", 
+        "ttbar_xsec", 
+        "TptReweight", 
+        "Pileup", 
+        "pdf", 
+        "Prefire", 
+        "jer", 
+        "jes", 
+        "jmr", 
+        "jms"
+      ], 
+      "TITLE": "t#bar{t}", 
+      "TYPE": "BKG", 
+      "VARIATION": "nominal"
+    }
+  }, 
+  "REGIONS": {
+    "CR_loose": {
+      "BINNING": "default", 
+      "PROCESSES": [
+        "ttbar", 
+        "WJets", 
+        "ZJets", 
+        "SIGNAME"
+      ]
+    }, 
+    "CR_pass": {
+      "BINNING": "default", 
+      "PROCESSES": [
+        "ttbar", 
+        "WJets", 
+        "ZJets", 
+        "SIGNAME"
+      ]
+    }
+  }, 
+  "SYSTEMATICS": {
+    "PNetTop": {
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2_$syst_down.root:MthvMh_particleNet_$region__nominal", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2_$syst_up.root:MthvMh_particleNet_$region__nominal"
+    }, 
+    "PNetXbb": {
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2_$syst_down.root:MthvMh_particleNet_$region__nominal", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2_$syst_up.root:MthvMh_particleNet_$region__nominal"
+    }, 
+    "Pileup": {
+      "ALIAS": "Pileup", 
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_down", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_up"
+    }, 
+    "Prefire": {
+      "ALIAS": "L1PreFiringWeight", 
+      "ALIAS1": "Prefire", 
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_down", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_up"
+    }, 
+    "TptReweight": {
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_down", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_up"
+    }, 
+    "TriggerEff16": {
+      "CODE": 0, 
+      "COMMENT_DOWN": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_down", 
+      "COMMENT_SIGMA": 1.0, 
+      "COMMENT_UP": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_up", 
+      "VAL": 1.1
+    }, 
+    "TriggerEff17": {
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_down", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_up"
+    }, 
+    "TriggerEff18": {
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_down", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_up"
+    }, 
+    "jer": {
+      "ALIAS": "JER", 
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2_$syst_down.root:MthvMh_particleNet_$region__nominal", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2_$syst_up.root:MthvMh_particleNet_$region__nominal"
+    }, 
+    "jes": {
+      "ALIAS": "JES", 
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2_$syst_down.root:MthvMh_particleNet_$region__nominal", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2_$syst_up.root:MthvMh_particleNet_$region__nominal"
+    }, 
+    "jmr": {
+      "ALIAS": "JMR", 
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2_$syst_down.root:MthvMh_particleNet_$region__nominal", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2_$syst_up.root:MthvMh_particleNet_$region__nominal"
+    }, 
+    "jms": {
+      "ALIAS": "JMS", 
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2_$syst_down.root:MthvMh_particleNet_$region__nominal", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2_$syst_up.root:MthvMh_particleNet_$region__nominal"
+    }, 
+    "lumi": {
+      "CODE": 0, 
+      "VAL": 1.016
+    }, 
+    "pdf": {
+      "ALIAS": "Pdfweight", 
+      "DOWN": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_down", 
+      "SIGMA": 1.0, 
+      "UP": "rootfiles/THselection_HT750_$process_Run2.root:MthvMh_particleNet_$region__$syst_up"
+    }, 
+    "ttbar_xsec": {
+      "VAL": 1.2
+    }, 
+    "w_xsec": {
+      "VAL": 1.2
+    }, 
+    "z_xsec": {
+      "VAL": 1.2
+    }
+  }
+}

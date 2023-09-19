@@ -1,0 +1,6 @@
+Background_CR_rpf_2x2_par0: 0.640762686752 +/- 0.0442085180784
+Background_CR_rpf_2x2_par1: 0.705724407026 +/- 0.0950242207212
+Background_CR_rpf_2x2_par2: -0.475960854425 +/- 0.10478635197
+Background_CR_rpf_2x2_par3: 0.193101249541 +/- 0.0123087315268
+Background_CR_rpf_2x2_par4: -0.879165403867 +/- 119.1444752
+Background_CR_rpf_2x2_par5: 0.00131696742153 +/- 0.179260823291
