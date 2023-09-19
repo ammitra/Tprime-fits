@@ -1,0 +1,15 @@
+,process,region,process_type,title
+0,data_obs,CR_loose,DATA,Data
+1,ttbar,CR_loose,BKG,t#bar{t}
+2,WJets,CR_loose,BKG,W+ Jets
+3,ZJets,CR_loose,BKG,Z+ Jets
+4,TprimeB-1800-125,CR_loose,SIGNAL,b+T 1800 GeV
+5,Multijet,CR_loose,BKG,Multijet
+6,TotalBkg,CR_loose,TOTAL,TotalBkg
+7,data_obs,CR_pass,DATA,Data
+8,ttbar,CR_pass,BKG,t#bar{t}
+9,WJets,CR_pass,BKG,W+ Jets
+10,ZJets,CR_pass,BKG,Z+ Jets
+11,TprimeB-1800-125,CR_pass,SIGNAL,b+T 1800 GeV
+12,Multijet_2x1,CR_pass,BKG,Multijet
+13,TotalBkg,CR_pass,TOTAL,TotalBkg

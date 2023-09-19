@@ -1,0 +1,303 @@
+
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is FitDiagnostics
+Set Default Value of Parameter r To : 1
+>>> 0 out of 6 channels masked
+
+>>> Channel masks:
+  1) 0x65a4870 RooRealVar::  mask_CR_loose_LOW = 0 C  L(-INF - +INF)  "mask_CR_loose_LOW"
+  2) 0x65a5350 RooRealVar::  mask_CR_loose_SIG = 0 C  L(-INF - +INF)  "mask_CR_loose_SIG"
+  3) 0x65a5f60 RooRealVar:: mask_CR_loose_HIGH = 0 C  L(-INF - +INF)  "mask_CR_loose_HIGH"
+  4) 0x65a6b70 RooRealVar::   mask_CR_pass_LOW = 0 C  L(-INF - +INF)  "mask_CR_pass_LOW"
+  5) 0x65a7780 RooRealVar::   mask_CR_pass_SIG = 0 C  L(-INF - +INF)  "mask_CR_pass_SIG"
+  6) 0x65a8390 RooRealVar::  mask_CR_pass_HIGH = 0 C  L(-INF - +INF)  "mask_CR_pass_HIGH"
+SimNLL created with 0 channels, 0 generic constraints, 14 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+Minuit2Minimizer: Minimize with max-calls 7000 convergence for edm < 0.1 strategy 1
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+MnSeedGenerator: for initial parameters FCN = 0
+MnSeedGenerator: Initial state:   - FCN =                0 Edm =            0 NCalls =     57
+VariableMetric: start iterating until Edm is < 0.0001
+VariableMetric: Initial state   - FCN =                0 Edm =            0 NCalls =     57
+VariableMetric: Iteration #   0 - FCN =                0 Edm =            0 NCalls =     57
+VariableMetric: After Hessian   - FCN =                0 Edm =            0 NCalls =    205
+VariableMetric: Iteration #   1 - FCN =                0 Edm =            0 NCalls =    205
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 0
+Nfcn  = 205
+PNetTop	  = 0	 +/-  1
+PNetXbb	  = 0	 +/-  1
+Pileup	  = 0	 +/-  1
+Prefire	  = 0	 +/-  1
+TptReweight	  = 0	 +/-  1
+jer	  = 0	 +/-  1
+jes	  = 0	 +/-  1
+jmr	  = 0	 +/-  1
+jms	  = 0	 +/-  1
+lumi	  = 0	 +/-  1
+pdf	  = 0	 +/-  1
+ttbar_xsec	  = 0	 +/-  1
+w_xsec	  = 0	 +/-  1
+z_xsec	  = 0	 +/-  1
+SimNLL created with 6 channels, 0 generic constraints, 14 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 0.000357033
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=-1 HESSE=3 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+            PNetTop_In    0.0000e+00
+            PNetXbb_In    0.0000e+00
+             Pileup_In    0.0000e+00
+            Prefire_In    0.0000e+00
+        TptReweight_In    0.0000e+00
+                jer_In    0.0000e+00
+                jes_In    0.0000e+00
+                jmr_In    0.0000e+00
+                jms_In    0.0000e+00
+               lumi_In    0.0000e+00
+  n_exp_binCR_loose_HIGH_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_LOW_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_SIG_proc_Multijet    1.0000e+00
+  n_exp_binCR_pass_HIGH_proc_Multijet_2x1    1.0000e+00
+  n_exp_binCR_pass_LOW_proc_Multijet_2x1    1.0000e+00
+  n_exp_binCR_pass_SIG_proc_Multijet_2x1    1.0000e+00
+                pdf_In    0.0000e+00
+                     r    0.0000e+00
+         ttbar_xsec_In    0.0000e+00
+             w_xsec_In    0.0000e+00
+             z_xsec_In    0.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+    CR_RRatio_2x1_par0    2.8504e+00    2.8504e+00 +/-  4.94e-01  <none>
+    CR_RRatio_2x1_par1    2.3857e-03    2.3857e-03 +/-  5.82e-01  <none>
+    CR_RRatio_2x1_par2    1.6411e-03    1.6411e-03 +/-  6.55e-01  <none>
+    CR_RRatio_2x1_par3    3.5115e-01    3.5115e-01 +/-  6.09e-02  <none>
+    CR_RRatio_2x1_par4   -9.6591e-05   -9.6591e-05 +/-  3.36e-02  <none>
+               PNetTop    0.0000e+00    0.0000e+00 +/-  9.98e-01  <none>
+               PNetXbb    0.0000e+00    0.0000e+00 +/-  9.98e-01  <none>
+                Pileup    1.9818e-02    1.9818e-02 +/-  9.47e-01  <none>
+               Prefire   -4.7950e-03   -4.7950e-03 +/-  7.99e-01  <none>
+           TptReweight    4.6729e-03    4.6729e-03 +/-  9.86e-01  <none>
+                   jer   -1.2886e-01   -1.2886e-01 +/-  1.09e+00  <none>
+                   jes    1.4824e-04    1.4824e-04 +/-  5.47e-01  <none>
+                   jmr   -4.8934e-02   -4.8934e-02 +/-  6.13e-01  <none>
+                   jms   -6.0218e-03   -6.0218e-03 +/-  5.62e-01  <none>
+                  lumi   -5.6502e-03   -5.6502e-03 +/-  9.91e-01  <none>
+                   pdf   -1.3634e-01   -1.3634e-01 +/-  8.90e-01  <none>
+            ttbar_xsec    2.3818e-02    2.3818e-02 +/-  3.95e-01  <none>
+                w_xsec   -3.2338e-02   -3.2338e-02 +/-  8.69e-01  <none>
+                z_xsec   -4.6870e-02   -4.6870e-02 +/-  7.64e-01  <none>
+
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 0.000357033
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=-1 HESSE=3 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+            PNetTop_In    0.0000e+00
+            PNetXbb_In    0.0000e+00
+             Pileup_In    0.0000e+00
+            Prefire_In    0.0000e+00
+        TptReweight_In    0.0000e+00
+                jer_In    0.0000e+00
+                jes_In    0.0000e+00
+                jmr_In    0.0000e+00
+                jms_In    0.0000e+00
+               lumi_In    0.0000e+00
+  n_exp_binCR_loose_HIGH_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_LOW_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_SIG_proc_Multijet    1.0000e+00
+  n_exp_binCR_pass_HIGH_proc_Multijet_2x1    1.0000e+00
+  n_exp_binCR_pass_LOW_proc_Multijet_2x1    1.0000e+00
+  n_exp_binCR_pass_SIG_proc_Multijet_2x1    1.0000e+00
+                pdf_In    0.0000e+00
+                     r    0.0000e+00
+         ttbar_xsec_In    0.0000e+00
+             w_xsec_In    0.0000e+00
+             z_xsec_In    0.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+    CR_RRatio_2x1_par0    2.8504e+00    2.8504e+00 +/-  4.94e-01  <none>
+    CR_RRatio_2x1_par1    2.3857e-03    2.3857e-03 +/-  5.82e-01  <none>
+    CR_RRatio_2x1_par2    1.6411e-03    1.6411e-03 +/-  6.55e-01  <none>
+    CR_RRatio_2x1_par3    3.5115e-01    3.5115e-01 +/-  6.09e-02  <none>
+    CR_RRatio_2x1_par4   -9.6591e-05   -9.6591e-05 +/-  3.36e-02  <none>
+               PNetTop    0.0000e+00    0.0000e+00 +/-  9.98e-01  <none>
+               PNetXbb    0.0000e+00    0.0000e+00 +/-  9.98e-01  <none>
+                Pileup    1.9818e-02    1.9818e-02 +/-  9.47e-01  <none>
+               Prefire   -4.7950e-03   -4.7950e-03 +/-  7.99e-01  <none>
+           TptReweight    4.6729e-03    4.6729e-03 +/-  9.86e-01  <none>
+                   jer   -1.2886e-01   -1.2886e-01 +/-  1.09e+00  <none>
+                   jes    1.4824e-04    1.4824e-04 +/-  5.47e-01  <none>
+                   jmr   -4.8934e-02   -4.8934e-02 +/-  6.13e-01  <none>
+                   jms   -6.0218e-03   -6.0218e-03 +/-  5.62e-01  <none>
+                  lumi   -5.6502e-03   -5.6502e-03 +/-  9.91e-01  <none>
+                   pdf   -1.3634e-01   -1.3634e-01 +/-  8.90e-01  <none>
+            ttbar_xsec    2.3818e-02    2.3818e-02 +/-  3.95e-01  <none>
+                w_xsec   -3.2338e-02   -3.2338e-02 +/-  8.69e-01  <none>
+                z_xsec   -4.6870e-02   -4.6870e-02 +/-  7.64e-01  <none>
+
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 0.000272348
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=-1 HESSE=3 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+            PNetTop_In    0.0000e+00
+            PNetXbb_In    0.0000e+00
+             Pileup_In    0.0000e+00
+            Prefire_In    0.0000e+00
+        TptReweight_In    0.0000e+00
+                jer_In    0.0000e+00
+                jes_In    0.0000e+00
+                jmr_In    0.0000e+00
+                jms_In    0.0000e+00
+               lumi_In    0.0000e+00
+  n_exp_binCR_loose_HIGH_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_LOW_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_SIG_proc_Multijet    1.0000e+00
+  n_exp_binCR_pass_HIGH_proc_Multijet_2x1    1.0000e+00
+  n_exp_binCR_pass_LOW_proc_Multijet_2x1    1.0000e+00
+  n_exp_binCR_pass_SIG_proc_Multijet_2x1    1.0000e+00
+                pdf_In    0.0000e+00
+         ttbar_xsec_In    0.0000e+00
+             w_xsec_In    0.0000e+00
+             z_xsec_In    0.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+    CR_RRatio_2x1_par0    2.3295e+00    2.3295e+00 +/-  1.86e+00  <none>
+    CR_RRatio_2x1_par1    2.9450e-03    2.9450e-03 +/-  5.40e-01  <none>
+    CR_RRatio_2x1_par2    4.2168e-04    4.2168e-04 +/-  6.05e-01  <none>
+    CR_RRatio_2x1_par3    4.2962e-01    4.2962e-01 +/-  3.43e-01  <none>
+    CR_RRatio_2x1_par4    1.9024e-05    1.9024e-05 +/-  4.28e-02  <none>
+               PNetTop    3.0443e-04    3.0443e-04 +/-  1.00e+00  <none>
+               PNetXbb    2.6067e-03    2.6067e-03 +/-  1.00e+00  <none>
+                Pileup    2.2355e-02    2.2355e-02 +/-  9.50e-01  <none>
+               Prefire   -1.9178e-03   -1.9178e-03 +/-  8.37e-01  <none>
+           TptReweight    4.7108e-03    4.7108e-03 +/-  9.90e-01  <none>
+                   jer   -1.3497e-01   -1.3497e-01 +/-  1.09e+00  <none>
+                   jes    1.9988e-04    1.9988e-04 +/-  5.47e-01  <none>
+                   jmr   -5.4732e-02   -5.4732e-02 +/-  6.14e-01  <none>
+                   jms   -1.0354e-02   -1.0354e-02 +/-  5.64e-01  <none>
+                  lumi   -5.1585e-03   -5.1585e-03 +/-  9.94e-01  <none>
+                   pdf   -1.2725e-01   -1.2725e-01 +/-  8.99e-01  <none>
+                     r   -1.1344e-02   -1.1344e-02 +/-  6.45e-01  <none>
+            ttbar_xsec    2.1430e-02    2.1430e-02 +/-  3.99e-01  <none>
+                w_xsec   -3.3878e-02   -3.3878e-02 +/-  8.71e-01  <none>
+                z_xsec   -4.8305e-02   -4.8305e-02 +/-  7.66e-01  <none>
+
+Robus Fit for POI 
+Set default minimizer to Minuit2, algorithm Migrad, tolerance 0.1
+Searching for crossing at nll = -5160.31 in the interval -0.0113444, 5
+Error: minimization failed at r = -0.0113444
+Set default minimizer to Minuit2, algorithm Migrad, tolerance 0.1
+Searching for crossing at nll = -5160.31 in the interval -0.0113444, -1
+Error: minimization failed at r = -0.0113444
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 0.000272348
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=-1 HESSE=3 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+            PNetTop_In    0.0000e+00
+            PNetXbb_In    0.0000e+00
+             Pileup_In    0.0000e+00
+            Prefire_In    0.0000e+00
+        TptReweight_In    0.0000e+00
+                jer_In    0.0000e+00
+                jes_In    0.0000e+00
+                jmr_In    0.0000e+00
+                jms_In    0.0000e+00
+               lumi_In    0.0000e+00
+  n_exp_binCR_loose_HIGH_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_LOW_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_SIG_proc_Multijet    1.0000e+00
+  n_exp_binCR_pass_HIGH_proc_Multijet_2x1    1.0000e+00
+  n_exp_binCR_pass_LOW_proc_Multijet_2x1    1.0000e+00
+  n_exp_binCR_pass_SIG_proc_Multijet_2x1    1.0000e+00
+                pdf_In    0.0000e+00
+         ttbar_xsec_In    0.0000e+00
+             w_xsec_In    0.0000e+00
+             z_xsec_In    0.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+    CR_RRatio_2x1_par0    2.3295e+00    2.3295e+00         +/-  1.86e+00  <none>
+    CR_RRatio_2x1_par1    2.9450e-03    2.9450e-03         +/-  5.40e-01  <none>
+    CR_RRatio_2x1_par2    4.2168e-04    4.2168e-04         +/-  6.05e-01  <none>
+    CR_RRatio_2x1_par3    4.2962e-01    4.2962e-01         +/-  3.43e-01  <none>
+    CR_RRatio_2x1_par4    1.9024e-05    1.9024e-05         +/-  4.28e-02  <none>
+               PNetTop    3.0443e-04    3.0443e-04         +/-  1.00e+00  <none>
+               PNetXbb    2.6067e-03    2.6067e-03         +/-  1.00e+00  <none>
+                Pileup    2.2355e-02    2.2355e-02         +/-  9.50e-01  <none>
+               Prefire   -1.9178e-03   -1.9178e-03         +/-  8.37e-01  <none>
+           TptReweight    4.7108e-03    4.7108e-03         +/-  9.90e-01  <none>
+                   jer   -1.3497e-01   -1.3497e-01         +/-  1.09e+00  <none>
+                   jes    1.9988e-04    1.9988e-04         +/-  5.47e-01  <none>
+                   jmr   -5.4732e-02   -5.4732e-02         +/-  6.14e-01  <none>
+                   jms   -1.0354e-02   -1.0354e-02         +/-  5.64e-01  <none>
+                  lumi   -5.1585e-03   -5.1585e-03         +/-  9.94e-01  <none>
+                   pdf   -1.2725e-01   -1.2725e-01         +/-  8.99e-01  <none>
+                     r   -1.1344e-02   -1.1344e-02 (+0.00e+00,--0.00e+00)  <none>
+            ttbar_xsec    2.1430e-02    2.1430e-02         +/-  3.99e-01  <none>
+                w_xsec   -3.3878e-02   -3.3878e-02         +/-  8.71e-01  <none>
+                z_xsec   -4.8305e-02   -4.8305e-02         +/-  7.66e-01  <none>
+
+
+ --- FitDiagnostics ---
+Best fit r: -0.0113444  -0.988656/+5.01134  (68% CL)
+Done in 0.02 min (cpu), 0.02 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 24
+Messages of type DEBUG : 8
+Messages of type ERROR : 3
+----------------------------------------------
+INFO: (function: applyOptionsBase) FitterAlgoBase.cc: 113 -- Setting robust fit options to Tolerance=0.1 / Strategy=0 / Type,Algo=Minuit2,Migrad (note that defaults of CascadeMinimizer were taken where option not specified)
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=-1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 217 -- Minimization ended with latest status != 0 or 1
+ERROR: (function: runSpecific) [WARNING]: Unable to determine uncertainties on all fit parameters in b-only fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+DEBUG: (function: runSpecific) FitDiagnostics.cc: 318 -- Fit B-only, status = 3, numBadNLL = 0, covariance quality = 2
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=-1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 217 -- Minimization ended with latest status != 0 or 1
+INFO: (function: doFit) FitterAlgoBase.cc: 359 -- Running RobustFit for POI r. Configured with strategy 0  
+INFO: (function: findCrossing) FitterAlgoBase.cc: 405 -- Searching for crossing at nll = -5160.31, in the interval -0.0113444 < r < 5
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=-1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 217 -- Minimization ended with latest status != 0 or 1
+ERROR: (function: findCrossing) FitterAlgoBase.cc: 419 -- Minimization failed at r = -0.0113444
+INFO: (function: findCrossing) FitterAlgoBase.cc: 405 -- Searching for crossing at nll = -5160.31, in the interval -0.0113444 < r < -1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=-1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 217 -- Minimization ended with latest status != 0 or 1
+ERROR: (function: findCrossing) FitterAlgoBase.cc: 419 -- Minimization failed at r = -0.0113444
+DEBUG: (function: runSpecific) FitDiagnostics.cc: 443 -- Fit S+B, status = 3, numBadNLL = 0, covariance quality = 3

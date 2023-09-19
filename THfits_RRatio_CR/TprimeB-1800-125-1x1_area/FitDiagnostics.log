@@ -1,0 +1,441 @@
+
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is FitDiagnostics
+Set Default Value of Parameter r To : 1
+>>> 0 out of 6 channels masked
+
+>>> Channel masks:
+  1) 0x652c270 RooRealVar::  mask_CR_loose_LOW = 0 C  L(-INF - +INF)  "mask_CR_loose_LOW"
+  2) 0x652cd50 RooRealVar::  mask_CR_loose_SIG = 0 C  L(-INF - +INF)  "mask_CR_loose_SIG"
+  3) 0x652d960 RooRealVar:: mask_CR_loose_HIGH = 0 C  L(-INF - +INF)  "mask_CR_loose_HIGH"
+  4) 0x652e570 RooRealVar::   mask_CR_pass_LOW = 0 C  L(-INF - +INF)  "mask_CR_pass_LOW"
+  5) 0x652f180 RooRealVar::   mask_CR_pass_SIG = 0 C  L(-INF - +INF)  "mask_CR_pass_SIG"
+  6) 0x652fd90 RooRealVar::  mask_CR_pass_HIGH = 0 C  L(-INF - +INF)  "mask_CR_pass_HIGH"
+SimNLL created with 0 channels, 0 generic constraints, 14 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+Minuit2Minimizer: Minimize with max-calls 7000 convergence for edm < 0.1 strategy 1
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+MnSeedGenerator: for initial parameters FCN = 0
+MnSeedGenerator: Initial state:   - FCN =                0 Edm =            0 NCalls =     57
+VariableMetric: start iterating until Edm is < 0.0001
+VariableMetric: Initial state   - FCN =                0 Edm =            0 NCalls =     57
+VariableMetric: Iteration #   0 - FCN =                0 Edm =            0 NCalls =     57
+VariableMetric: After Hessian   - FCN =                0 Edm =            0 NCalls =    205
+VariableMetric: Iteration #   1 - FCN =                0 Edm =            0 NCalls =    205
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 0
+Nfcn  = 205
+PNetTop	  = 0	 +/-  1
+PNetXbb	  = 0	 +/-  1
+Pileup	  = 0	 +/-  1
+Prefire	  = 0	 +/-  1
+TptReweight	  = 0	 +/-  1
+jer	  = 0	 +/-  1
+jes	  = 0	 +/-  1
+jmr	  = 0	 +/-  1
+jms	  = 0	 +/-  1
+lumi	  = 0	 +/-  1
+pdf	  = 0	 +/-  1
+ttbar_xsec	  = 0	 +/-  1
+w_xsec	  = 0	 +/-  1
+z_xsec	  = 0	 +/-  1
+SimNLL created with 6 channels, 0 generic constraints, 14 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 2.01568e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=-1 HESSE=3 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+            PNetTop_In    0.0000e+00
+            PNetXbb_In    0.0000e+00
+             Pileup_In    0.0000e+00
+            Prefire_In    0.0000e+00
+        TptReweight_In    0.0000e+00
+                jer_In    0.0000e+00
+                jes_In    0.0000e+00
+                jmr_In    0.0000e+00
+                jms_In    0.0000e+00
+               lumi_In    0.0000e+00
+  n_exp_binCR_loose_HIGH_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_LOW_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_SIG_proc_Multijet    1.0000e+00
+  n_exp_binCR_pass_HIGH_proc_Multijet_1x1    1.0000e+00
+  n_exp_binCR_pass_LOW_proc_Multijet_1x1    1.0000e+00
+  n_exp_binCR_pass_SIG_proc_Multijet_1x1    1.0000e+00
+                pdf_In    0.0000e+00
+                     r    0.0000e+00
+         ttbar_xsec_In    0.0000e+00
+             w_xsec_In    0.0000e+00
+             z_xsec_In    0.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+    CR_RRatio_1x1_par0    1.0616e+00    1.0616e+00 +/-  9.35e-01  <none>
+    CR_RRatio_1x1_par1    1.4528e-03    1.4528e-03 +/-  7.78e-02  <none>
+    CR_RRatio_1x1_par2    9.4276e-01    9.4276e-01 +/-  8.30e-01  <none>
+    CR_RRatio_1x1_par3   -2.7694e-04   -2.7694e-04 +/-  9.04e-02  <none>
+               PNetTop    2.3863e-12    2.3863e-12 +/-  1.00e+00  <none>
+               PNetXbb    2.3863e-12    2.3863e-12 +/-  1.00e+00  <none>
+                Pileup    2.3777e-02    2.3777e-02 +/-  9.48e-01  <none>
+               Prefire   -2.6694e-03   -2.6694e-03 +/-  7.82e-01  <none>
+           TptReweight    4.4081e-03    4.4081e-03 +/-  9.89e-01  <none>
+                   jer   -1.3761e-01   -1.3761e-01 +/-  1.08e+00  <none>
+                   jes   -3.9944e-04   -3.9944e-04 +/-  7.96e-02  <none>
+                   jmr   -5.0426e-02   -5.0426e-02 +/-  6.06e-01  <none>
+                   jms   -7.2505e-03   -7.2505e-03 +/-  5.34e-01  <none>
+                  lumi   -5.0967e-03   -5.0967e-03 +/-  9.93e-01  <none>
+                   pdf   -1.2976e-01   -1.2976e-01 +/-  8.97e-01  <none>
+            ttbar_xsec    2.1609e-02    2.1609e-02 +/-  3.96e-01  <none>
+                w_xsec   -3.2157e-02   -3.2157e-02 +/-  8.71e-01  <none>
+                z_xsec   -4.8047e-02   -4.8047e-02 +/-  7.63e-01  <none>
+
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 2.01568e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=-1 HESSE=3 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+            PNetTop_In    0.0000e+00
+            PNetXbb_In    0.0000e+00
+             Pileup_In    0.0000e+00
+            Prefire_In    0.0000e+00
+        TptReweight_In    0.0000e+00
+                jer_In    0.0000e+00
+                jes_In    0.0000e+00
+                jmr_In    0.0000e+00
+                jms_In    0.0000e+00
+               lumi_In    0.0000e+00
+  n_exp_binCR_loose_HIGH_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_LOW_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_SIG_proc_Multijet    1.0000e+00
+  n_exp_binCR_pass_HIGH_proc_Multijet_1x1    1.0000e+00
+  n_exp_binCR_pass_LOW_proc_Multijet_1x1    1.0000e+00
+  n_exp_binCR_pass_SIG_proc_Multijet_1x1    1.0000e+00
+                pdf_In    0.0000e+00
+                     r    0.0000e+00
+         ttbar_xsec_In    0.0000e+00
+             w_xsec_In    0.0000e+00
+             z_xsec_In    0.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+    CR_RRatio_1x1_par0    1.0616e+00    1.0616e+00 +/-  9.35e-01  <none>
+    CR_RRatio_1x1_par1    1.4528e-03    1.4528e-03 +/-  7.78e-02  <none>
+    CR_RRatio_1x1_par2    9.4276e-01    9.4276e-01 +/-  8.30e-01  <none>
+    CR_RRatio_1x1_par3   -2.7694e-04   -2.7694e-04 +/-  9.04e-02  <none>
+               PNetTop    2.3863e-12    2.3863e-12 +/-  1.00e+00  <none>
+               PNetXbb    2.3863e-12    2.3863e-12 +/-  1.00e+00  <none>
+                Pileup    2.3777e-02    2.3777e-02 +/-  9.48e-01  <none>
+               Prefire   -2.6694e-03   -2.6694e-03 +/-  7.82e-01  <none>
+           TptReweight    4.4081e-03    4.4081e-03 +/-  9.89e-01  <none>
+                   jer   -1.3761e-01   -1.3761e-01 +/-  1.08e+00  <none>
+                   jes   -3.9944e-04   -3.9944e-04 +/-  7.96e-02  <none>
+                   jmr   -5.0426e-02   -5.0426e-02 +/-  6.06e-01  <none>
+                   jms   -7.2505e-03   -7.2505e-03 +/-  5.34e-01  <none>
+                  lumi   -5.0967e-03   -5.0967e-03 +/-  9.93e-01  <none>
+                   pdf   -1.2976e-01   -1.2976e-01 +/-  8.97e-01  <none>
+            ttbar_xsec    2.1609e-02    2.1609e-02 +/-  3.96e-01  <none>
+                w_xsec   -3.2157e-02   -3.2157e-02 +/-  8.71e-01  <none>
+                z_xsec   -4.8047e-02   -4.8047e-02 +/-  7.63e-01  <none>
+
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 0.000215841
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=0 HESSE=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+            PNetTop_In    0.0000e+00
+            PNetXbb_In    0.0000e+00
+             Pileup_In    0.0000e+00
+            Prefire_In    0.0000e+00
+        TptReweight_In    0.0000e+00
+                jer_In    0.0000e+00
+                jes_In    0.0000e+00
+                jmr_In    0.0000e+00
+                jms_In    0.0000e+00
+               lumi_In    0.0000e+00
+  n_exp_binCR_loose_HIGH_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_LOW_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_SIG_proc_Multijet    1.0000e+00
+  n_exp_binCR_pass_HIGH_proc_Multijet_1x1    1.0000e+00
+  n_exp_binCR_pass_LOW_proc_Multijet_1x1    1.0000e+00
+  n_exp_binCR_pass_SIG_proc_Multijet_1x1    1.0000e+00
+                pdf_In    0.0000e+00
+         ttbar_xsec_In    0.0000e+00
+             w_xsec_In    0.0000e+00
+             z_xsec_In    0.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+    CR_RRatio_1x1_par0    9.6522e-01    9.6522e-01 +/-  1.77e-01  <none>
+    CR_RRatio_1x1_par1    1.3028e-03    1.3028e-03 +/-  6.97e-02  <none>
+    CR_RRatio_1x1_par2    1.0368e+00    1.0368e+00 +/-  1.92e-01  <none>
+    CR_RRatio_1x1_par3    1.1740e-04    1.1740e-04 +/-  1.02e-01  <none>
+               PNetTop    4.4207e-06    4.4207e-06 +/-  1.00e+00  <none>
+               PNetXbb    2.2814e-05    2.2814e-05 +/-  9.93e-01  <none>
+                Pileup    2.4132e-02    2.4132e-02 +/-  9.45e-01  <none>
+               Prefire   -7.4549e-04   -7.4549e-04 +/-  8.33e-01  <none>
+           TptReweight    4.4880e-03    4.4880e-03 +/-  9.82e-01  <none>
+                   jer   -1.3551e-01   -1.3551e-01 +/-  1.08e+00  <none>
+                   jes   -1.1101e-04   -1.1101e-04 +/-  5.44e-01  <none>
+                   jmr   -5.2324e-02   -5.2324e-02 +/-  6.12e-01  <none>
+                   jms   -8.2940e-03   -8.2940e-03 +/-  5.65e-01  <none>
+                  lumi   -4.9163e-03   -4.9163e-03 +/-  9.82e-01  <none>
+                   pdf   -1.3016e-01   -1.3016e-01 +/-  8.64e-01  <none>
+                     r   -1.1226e-02   -1.1226e-02 +/-  6.37e-01  <none>
+            ttbar_xsec    2.2142e-02    2.2142e-02 +/-  3.85e-01  <none>
+                w_xsec   -3.3277e-02   -3.3277e-02 +/-  8.69e-01  <none>
+                z_xsec   -4.7286e-02   -4.7286e-02 +/-  7.57e-01  <none>
+
+Robus Fit for POI 
+Set default minimizer to Minuit2, algorithm Migrad, tolerance 0.1
+Searching for crossing at nll = -5222.87 in the interval -0.011226, 5
+      r      lvl-here  lvl-there   stepping
+0.489897    +0.23670  +0.49447    0.501123
+0.991019    -0.40941  +0.23670    0.501123
+0.640233    +0.07621  -0.40941    0.150337
+0.790570    -0.11454  +0.07621    0.150337
+0.685334    +0.02196  -0.11454    0.045101
+0.730435    -0.03492  +0.02196    0.045101
+0.698865    +0.00515  -0.03492    0.013530
+0.712395    -0.01183  +0.00515    0.013530
+0.702924    +0.00008  -0.01183    0.004059
+Set default minimizer to Minuit2, algorithm Migrad, tolerance 0.1
+Searching for crossing at nll = -5222.87 in the interval -0.011226, -1
+      r      lvl-here  lvl-there   stepping
+-0.110103    +0.48253  +0.49447    -0.098877
+-0.208981    +0.44509  +0.48253    -0.098877
+-0.307858    +0.37962  +0.44509    -0.098877
+-0.406736    +0.28342  +0.37962    -0.098877
+-0.505613    +0.15371  +0.28342    -0.098877
+-0.604490    -0.01239  +0.15371    -0.098877
+-0.535276    +0.10779  -0.01239    -0.029663
+-0.564939    +0.05863  +0.10779    -0.029663
+-0.594603    +0.00592  +0.05863    -0.029663
+-0.624266    -0.05028  +0.00592    -0.029663
+-0.603502    -0.01057  -0.05028    -0.008899
+-0.597272    +0.00102  -0.01057    -0.002670
+-0.599942    -0.00390  +0.00102    -0.002670
+-0.598073    -0.00044  -0.00390    -0.000801
+-0.597513    +0.00059  -0.00044    -0.000240
+-0.597753    +0.00014  +0.00059    -0.000240
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 0.000215841
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=0 HESSE=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+            PNetTop_In    0.0000e+00
+            PNetXbb_In    0.0000e+00
+             Pileup_In    0.0000e+00
+            Prefire_In    0.0000e+00
+        TptReweight_In    0.0000e+00
+                jer_In    0.0000e+00
+                jes_In    0.0000e+00
+                jmr_In    0.0000e+00
+                jms_In    0.0000e+00
+               lumi_In    0.0000e+00
+  n_exp_binCR_loose_HIGH_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_LOW_proc_Multijet    1.0000e+00
+  n_exp_binCR_loose_SIG_proc_Multijet    1.0000e+00
+  n_exp_binCR_pass_HIGH_proc_Multijet_1x1    1.0000e+00
+  n_exp_binCR_pass_LOW_proc_Multijet_1x1    1.0000e+00
+  n_exp_binCR_pass_SIG_proc_Multijet_1x1    1.0000e+00
+                pdf_In    0.0000e+00
+         ttbar_xsec_In    0.0000e+00
+             w_xsec_In    0.0000e+00
+             z_xsec_In    0.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+    CR_RRatio_1x1_par0    9.6522e-01    9.6522e-01         +/-  1.77e-01  <none>
+    CR_RRatio_1x1_par1    1.3028e-03    1.3028e-03         +/-  6.97e-02  <none>
+    CR_RRatio_1x1_par2    1.0368e+00    1.0368e+00         +/-  1.92e-01  <none>
+    CR_RRatio_1x1_par3    1.1740e-04    1.1740e-04         +/-  1.02e-01  <none>
+               PNetTop    4.4207e-06    4.4207e-06         +/-  1.00e+00  <none>
+               PNetXbb    2.2814e-05    2.2814e-05         +/-  9.93e-01  <none>
+                Pileup    2.4132e-02    2.4132e-02         +/-  9.45e-01  <none>
+               Prefire   -7.4549e-04   -7.4549e-04         +/-  8.33e-01  <none>
+           TptReweight    4.4880e-03    4.4880e-03         +/-  9.82e-01  <none>
+                   jer   -1.3551e-01   -1.3551e-01         +/-  1.08e+00  <none>
+                   jes   -1.1101e-04   -1.1101e-04         +/-  5.44e-01  <none>
+                   jmr   -5.2324e-02   -5.2324e-02         +/-  6.12e-01  <none>
+                   jms   -8.2940e-03   -8.2940e-03         +/-  5.65e-01  <none>
+                  lumi   -4.9163e-03   -4.9163e-03         +/-  9.82e-01  <none>
+                   pdf   -1.3016e-01   -1.3016e-01         +/-  8.64e-01  <none>
+                     r   -1.1226e-02   -1.1226e-02 (+7.14e-01,-5.86e-01)  <none>
+            ttbar_xsec    2.2142e-02    2.2142e-02         +/-  3.85e-01  <none>
+                w_xsec   -3.3277e-02   -3.3277e-02         +/-  8.69e-01  <none>
+                z_xsec   -4.7286e-02   -4.7286e-02         +/-  7.57e-01  <none>
+
+
+ --- FitDiagnostics ---
+Best fit r: -0.011226  -0.586341/+0.714232  (68% CL)
+Done in 0.04 min (cpu), 0.04 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 129
+Messages of type DEBUG : 22
+Messages of type ERROR : 1
+----------------------------------------------
+INFO: (function: applyOptionsBase) FitterAlgoBase.cc: 113 -- Setting robust fit options to Tolerance=0.1 / Strategy=0 / Type,Algo=Minuit2,Migrad (note that defaults of CascadeMinimizer were taken where option not specified)
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=-1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 217 -- Minimization ended with latest status != 0 or 1
+DEBUG: (function: runSpecific) FitDiagnostics.cc: 318 -- Fit B-only, status = 3, numBadNLL = 0, covariance quality = 3
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: doFit) FitterAlgoBase.cc: 359 -- Running RobustFit for POI r. Configured with strategy 0  
+INFO: (function: findCrossing) FitterAlgoBase.cc: 405 -- Searching for crossing at nll = -5222.87, in the interval -0.011226 < r < 5
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 426 -- r lvl-here lvl-there 	stepping 
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- 0.489897    +0.23670  +0.49447    0.501123
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- 0.991019    -0.40941  +0.23670    0.501123
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- 0.640233    +0.07621  -0.40941    0.150337
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- 0.790570    -0.11454  +0.07621    0.150337
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- 0.685334    +0.02196  -0.11454    0.045101
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- 0.730435    -0.03492  +0.02196    0.045101
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- 0.698865    +0.00515  -0.03492    0.013530
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- 0.712395    -0.01183  +0.00515    0.013530
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- 0.702924    +0.00008  -0.01183    0.004059
+INFO: (function: findCrossing) FitterAlgoBase.cc: 405 -- Searching for crossing at nll = -5222.87, in the interval -0.011226 < r < -1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 426 -- r lvl-here lvl-there 	stepping 
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.110103    +0.48253  +0.49447    -0.098877
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.208981    +0.44509  +0.48253    -0.098877
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.307858    +0.37962  +0.44509    -0.098877
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.406736    +0.28342  +0.37962    -0.098877
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.505613    +0.15371  +0.28342    -0.098877
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.604490    -0.01239  +0.15371    -0.098877
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.535276    +0.10779  -0.01239    -0.029663
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.564939    +0.05863  +0.10779    -0.029663
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.594603    +0.00592  +0.05863    -0.029663
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.624266    -0.05028  +0.00592    -0.029663
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.603502    -0.01057  -0.05028    -0.008899
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.597272    +0.00102  -0.01057    -0.002670
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.599942    -0.00390  +0.00102    -0.002670
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.598073    -0.00044  -0.00390    -0.000801
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.597513    +0.00059  -0.00044    -0.000240
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: findCrossing) FitterAlgoBase.cc: 459 -- -0.597753    +0.00014  +0.00059    -0.000240
+ERROR: (function: runSpecific) [WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+DEBUG: (function: runSpecific) FitDiagnostics.cc: 443 -- Fit S+B, status = 0, numBadNLL = 0, covariance quality = 2

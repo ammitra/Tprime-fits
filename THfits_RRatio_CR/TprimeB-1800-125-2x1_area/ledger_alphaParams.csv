@@ -1,0 +1,6 @@
+,name,constraint,owner
+4,CR_RRatio_2x1_par0,flatParam,Multijet_2x1_CR_pass
+5,CR_RRatio_2x1_par1,flatParam,Multijet_2x1_CR_pass
+6,CR_RRatio_2x1_par2,flatParam,Multijet_2x1_CR_pass
+7,CR_RRatio_2x1_par3,flatParam,Multijet_2x1_CR_pass
+8,CR_RRatio_2x1_par4,flatParam,Multijet_2x1_CR_pass

@@ -1,0 +1,3 @@
+,process,region,obj,norm,process_type,color,combine_idx,title
+0,Multijet,CR_loose,,,BKG,400,,Multijet
+2,Multijet_2x1,CR_pass,,,BKG,400,,Multijet
